@@ -22,3 +22,9 @@ a {
   font-family: "burtons";
   src: url("/my_portfolio/public/Burtons.otf");
 }
+
+@layer components{
+  .list{
+    @apply bg-purple-200 rounded-xl w-fit h-fit md:text-lg text-black;
+  }
+}
